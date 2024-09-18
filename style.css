@@ -65,7 +65,8 @@ nav a.active{
 @media(max-width:995px){
     nav{
         position: absolute;
-        top: 100%;
+        display: none;
+        top: 0;
         right: 0;
         width: 40;
         border-left: 3px solid aqua;
@@ -123,6 +124,10 @@ span{
     font-weight: 700;
 }
 
+.home-content p{
+    font-size: 1.6rem;
+}
+
 .social-icons a{
     display: inline-flex;
     justify-content: center;
@@ -135,7 +140,7 @@ span{
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    color: white;
+    color: aqua;
 }
 
 .social-icons a:hover{
@@ -216,5 +221,23 @@ span{
 }
 
 @media (max-width: 1000px){
-    
+    .home{
+        gap: 4rem;
+    }   
+}
+
+@media (max-width:995px){
+    .home{
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+
+
+    .home .home-content h3{
+        font-size: 2.5rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
 }
