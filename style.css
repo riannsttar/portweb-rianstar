@@ -62,3 +62,34 @@ nav a.active{
     border-bottom: 3px solid aqua;
 }
 
+@media(max-width:995px){
+    nav{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 40;
+        border-left: 3px solid aqua;
+        border-bottom: 3px solid aqua;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    nav.active{
+        display: block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
+    nav a:hover,
+    nav a.actite{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid aqua;
+    }
+}
