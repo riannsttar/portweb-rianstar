@@ -435,4 +435,19 @@ section{
         margin: 5rem 0;
         gap: 5rem;
     }
+    .home-content{
+        align-items: center;
+        text-align: center;
+    }
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .about h2{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .contact form{
+        flex-direction: column;
+    }
 }
