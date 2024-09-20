@@ -59,7 +59,7 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #08dfd4 10%
+        #08dfd4 10%,
         #1540ff 100%
     );
 }
