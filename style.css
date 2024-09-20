@@ -32,4 +32,8 @@ body{
     padding: 4rem 15%;
     background: rgb(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
 }
