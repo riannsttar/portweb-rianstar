@@ -224,7 +224,7 @@ section{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: var(--main-color);
+    background-color: var(--bg-color);
 }
 
 .heading{
